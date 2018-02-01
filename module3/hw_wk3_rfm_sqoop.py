@@ -12,7 +12,7 @@
 
 # In[ ]:
 
-
+"""
 import
 
 --connect
@@ -40,7 +40,7 @@ sqoop(/wk3_hw_denormal_data)
 --query
 select 	transaction_data.household_key, 	homeowner_desc, 	day, 	basket_id, 	sales_value \  
 from hh_demographic join transaction_data 	on transaction_data.household_key = hh_demographic.household_key join product 	on product.product_id = transaction_data.product_id WHERE $CONDITIONS
-
+"""
 
 # # Load Parquet File
 
